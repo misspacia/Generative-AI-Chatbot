@@ -1,0 +1,30 @@
+{
+  "name": "9a02ef3e-5709-427f-9ebe-8c46a71f9309",
+  "displayName": "Recommendation Quiz",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "carType",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "What car type are you looking for? (sedan, SUV, hatchback, minivan etc.)" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cbd50b5f-0896-42a1-bd2c-f51b84e1594c"
+  }, {
+    "intent": "carColor",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "What color of the car would you like to have?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1e9695a8-16b7-4263-83ef-2cc0c2d8cf2c"
+  } ]
+}

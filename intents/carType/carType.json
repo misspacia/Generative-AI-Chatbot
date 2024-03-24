@@ -1,0 +1,10 @@
+{
+  "name": "30ade91e-eb0a-4dbe-80fe-ccded33aab6f",
+  "displayName": "carType",
+  "parameters": [ {
+    "id": "type",
+    "entityType": "@type"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

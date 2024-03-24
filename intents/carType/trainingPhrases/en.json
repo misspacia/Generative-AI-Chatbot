@@ -1,0 +1,69 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i'm thinking of ",
+      "auto": true
+    }, {
+      "text": "sedan",
+      "parameterId": "type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i'd like a ",
+      "auto": true
+    }, {
+      "text": "sedan",
+      "parameterId": "type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want a ",
+      "auto": true
+    }, {
+      "text": "minivan",
+      "parameterId": "type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want a ",
+      "auto": true
+    }, {
+      "text": "hatchback",
+      "parameterId": "type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want a ",
+      "auto": true
+    }, {
+      "text": "sedan",
+      "parameterId": "type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want a ",
+      "auto": true
+    }, {
+      "text": "suv",
+      "parameterId": "type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

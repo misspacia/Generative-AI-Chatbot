@@ -1,0 +1,22 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Example"
+  },
+  "languageCode": "en",
+  "knowledgeConnectorSettings": {
+    "business": "Car advisory",
+    "agent": "Car Advisor",
+    "agentIdentity": "chatbot",
+    "businessDescription": "Your only-needed website to find a perfect car for you",
+    "agentScope": "on a website where you will recommend a car for them",
+    "llmModelSettings": {
+    
+    },
+    "mainLlmConfig": {
+      "configSet": "gemini_pro"
+    }
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

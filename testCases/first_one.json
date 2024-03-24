@@ -1,0 +1,214 @@
+{
+  "name": "866fbc63-0ede-4d10-ac64-a3e77b6c0de7",
+  "displayName": "first_one",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hi"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Hello there! Welcome to the Car Advisory! I'm here to assist you today. Would you like to take a quiz which will help me recognize your needs?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Great! Let's get started." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ok"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "First, let's talk about your budget. What is your maximum budget for a new car?" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "15k"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Great! Let's see what we can find in that price range." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ok"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "What type of car are you looking for?" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "sedan"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Great! We have a few sedans in that price range." ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "ok"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Here's a link that might be helpful" ],
+        "containAiGeneratedContent": true,
+        "containDataStoreContent": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "wow thanks"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "currentPage": {
+        "name": "confirmation.yes",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "You're welcome!" ],
+        "containAiGeneratedContent": true,
+        "containGenerativeFallback": true,
+        "containAttemptedDataStoreInteractions": true
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1711051367,
+    "nanos": 324448000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

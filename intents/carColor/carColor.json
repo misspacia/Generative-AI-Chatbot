@@ -1,0 +1,10 @@
+{
+  "name": "b20c32f8-799b-4356-81bb-ea96cecc5c9b",
+  "displayName": "carColor",
+  "parameters": [ {
+    "id": "color",
+    "entityType": "@sys.color"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

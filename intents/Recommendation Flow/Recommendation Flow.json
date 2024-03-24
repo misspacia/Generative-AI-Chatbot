@@ -1,0 +1,16 @@
+{
+  "name": "3182a5f1-70b3-4ad0-be92-634d42c04226",
+  "displayName": "Recommendation Flow",
+  "parameters": [ {
+    "id": "color",
+    "entityType": "@sys.color"
+  }, {
+    "id": "any",
+    "entityType": "@sys.any"
+  }, {
+    "id": "type",
+    "entityType": "@type"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 8
+}

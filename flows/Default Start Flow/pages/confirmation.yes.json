@@ -1,0 +1,18 @@
+{
+  "name": "03edddcb-36c5-441c-b466-fba0603f05e1",
+  "displayName": "confirmation.yes",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Recommendation Flow",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Recommendation Quiz",
+    "name": "6deba9ee-a76d-4e6e-935b-9523a7679630"
+  } ]
+}

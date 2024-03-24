@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "sedan",
+    "synonyms": [ "sedan" ],
+    "languageCode": "en"
+  }, {
+    "value": "SUV",
+    "synonyms": [ "suv", "SUV" ],
+    "languageCode": "en"
+  }, {
+    "value": "hatchback",
+    "synonyms": [ "hatchback" ],
+    "languageCode": "en"
+  }, {
+    "value": "minivan",
+    "synonyms": [ "minivan" ],
+    "languageCode": "en"
+  } ]
+}

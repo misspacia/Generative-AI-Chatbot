@@ -1,0 +1,54 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "Europe/Madrid",
+  "enableLogging": true,
+  "projectNumber": 267284123986,
+  "speechToTextSettings": {
+  
+  },
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "voice": {
+        
+        }
+      }
+    } ]
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/267284123986/locations/global/collections/default_collection/engines/car-advisor_1711046275018"
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+    "enableAnswerFeedback": true
+  },
+  "webClientSettings": {
+  
+  }
+}
